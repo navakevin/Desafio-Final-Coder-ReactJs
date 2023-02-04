@@ -1,0 +1,12 @@
+
+.misCards{
+    transition: all 500ms;
+    cursor: pointer;
+}
+
+.misCards:hover{
+
+    box-shadow: 0px 3px 11px rgb(66, 65, 65);
+    transform: scale(101%);
+
+}

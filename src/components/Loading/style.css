@@ -1,0 +1,39 @@
+
+.loader{
+    width:100px;
+    height:100px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:10px 20px;
+}
+
+.containLoader{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes load4{
+    50%{
+      transform:rotatez(180deg);
+      border-width:30px;
+    }
+    100%{
+      transform:rotatez(360deg);
+    }
+  }
+  .loader4::before{
+    content:"";
+    color:rgb(209, 166, 166);
+    height:30px;
+    width:30px;
+    background:transparent;
+    border-radius:50%;
+    border:15px ridge rgb(255, 30, 0);
+    border-color:rgb(255, 0, 0) transparent;
+    animation:load4 1s infinite;
+  }
+

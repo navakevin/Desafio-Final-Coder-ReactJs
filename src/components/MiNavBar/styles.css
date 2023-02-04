@@ -1,0 +1,28 @@
+.logo {
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 300;
+    text-decoration: none;
+    color: rgba(255, 0, 0, 0.582);
+    cursor: pointer;
+}
+
+.logo:hover{
+    color: white;
+}
+.item{
+    padding: 0 6% 0 6%;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    
+}
+
+.item:hover{   
+    color: rgb(1, 2, 2);
+}
+
+@media (max-width:1268px) {
+    .item{
+        padding:10px 10px;
+    }
+}
